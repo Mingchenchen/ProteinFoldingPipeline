@@ -18,7 +18,11 @@ pip install biopython
 
 **To Run:**
 1. Download and Install required programs
-2. Pull Branch
+2. Clone Repo
+```
+git clone https://github.com/jkwoods/ProteinFoldingPipeline.git
+cd ProteinFoldingPipeline
+```
 3. Make FASTA/txt file, 8 column distance restraints file (format below), and 5 column torsion restraints file (format below) <br/>
     3a. example files are provided for Ubiquitin (1ubq)
 4. Edit fold_parameters.json with your parameters (explaination below)
